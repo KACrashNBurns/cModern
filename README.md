@@ -2,7 +2,7 @@
 
 # Repository for exercises and projects from the book 
 # C Programming, A Modern Approach, Second Edition
-# By: C. N. King
+# By: K. N. King
 # Department of Computer Science
 # Georgia State University.
 
