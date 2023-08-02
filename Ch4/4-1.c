@@ -1,10 +1,10 @@
 /*
- * Program Name: How Many Digits?
- * Date: 7/31/2023
- * Purpose: write a program that calculates
- * how many digits a number contains.  Use
- * if statements to test the number.  Assume
- * it has no more than four digits.
+ * Program Name: Reverse Digits
+ * Date: 8/1/2023
+ * Purpose: write a program that asks the
+ * user to enter a two digit number
+ * and then prints the digits in reverse
+ * order.
  * as a project from the book C Programming, 
  * A Modern Approach, by K. N. King.  This 
  * project is found in chapter 4 of the book.
@@ -14,18 +14,25 @@
 
 void main(void)
 {
-    unsigned int num = 0;
 
-    printf("Enter a number: ");
-    scanf("%u", &num);
+    int num, onesDigit, tensDigit;
+    num = onesDigit = tensDigit = 0;
+    
+    // Get user input
+    printf("Enter a two digit number: ");
+    scanf("%d", &num);
+ 
+    // Separate the digits.
+    // Note n % 10 is the last number, if base 10
+    // Note n / 10 is the first number with the
+    // last digit removed, if base 10 because of
+    // how integer division is performed in c.
 
-    if (num >= 0 && num <= 9)
-        printf("Number %u has 1 digit.\n", num);
-    else if (num >= 10 && num <= 99)
-        printf("Number %u has 2 digits.\n", num);
-    else if (num >= 100 && num <= 999)
-        printf("Number %u has 3 digits.\n", num);
-    else 
-        printf("Number %u has four or more digits.\n", num);
+    onesDigit = num % 10;
+    tensDigit = num / 10;
+
+    // Print the number in reverse
+
+    printf("Your number reversed is %d%d\n", onesDigit, tensDigit);
 
 }
