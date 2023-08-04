@@ -1,5 +1,5 @@
 /*
- * Program Name: Reverse Digits
+ * Program Name: UPC
  * Date: 8/1/2023
  * Purpose: rewrite the UPC program so that the 
  * user enters 11 digits on at a time instead

@@ -1,5 +1,5 @@
 /*
- * Program Name: Reverse Digits
+ * Program Name: EAN
  * Date: 8/1/2023
  * Purpose: european countries use a 13
  * digit EAN number instead of an 11 digit

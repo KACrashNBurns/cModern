@@ -1,5 +1,5 @@
 /*
- * Program Name: Reverse Digits
+ * Program Name: Octal
  * Date: 8/1/2023
  * Purpose: write a program that reads an integer
  * entered by the user and diplays it in octal
