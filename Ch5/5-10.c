@@ -1,5 +1,5 @@
 /*
- * Program Name: Flights
+ * Program Name: Grades
  * Date: 8/2/2023
  * Purpose: Use a switch statement to convert
  * a numerical grade to a letter grade.

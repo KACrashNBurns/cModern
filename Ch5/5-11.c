@@ -1,5 +1,5 @@
 /*
- * Program Name: Flights
+ * Program Name: Write Num
  * Date: 8/2/2023
  * Purpose: write a program that asks the
  * user for a two digit number and then
